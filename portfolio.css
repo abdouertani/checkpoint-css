@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky ;
+    top:0;
+    z-index: 10;
+    background-color: rgba(0, 110, 255, 0.986);
+    padding: 10px 20px 0;
+    border: 3px solid rgb(126, 4, 156);
+}
+body{   
+    z-index: 0;
+}
+.title{
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+    font-size: 35px;
+    padding: 0 15px;
+    justify-content: space-evenly;
+}
+#home,#contact,#resume,#work,#about{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 35px;
+    padding: 0 15px;
+    justify-content: space-evenly;
+}
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section,footer,.img{
+    background-color: rgb(68, 99, 129);
+    padding: 0 20px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+   display: flex;
+   flex-direction: column;
+}
+h1{
+    color: rgb(184, 56, 56);
+}
